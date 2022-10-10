@@ -25,6 +25,8 @@ class BrightnessViewController: UIViewController {
     
     func setBrightness() {
         
+        brightnessView.brightnessLabel.text = String(Int(Float(UIScreen.main.brightness) * 100)) + "%"
+        
         let panGesture = UIPanGestureRecognizer(target: self, action: #selector(panRecognize(_:)))
         panGesture.delegate = self
         panGesture.minimumNumberOfTouches = 1

@@ -33,7 +33,7 @@ class BrightnessView: UIView {
         addSubview(hintLabel)
         
         brightnessLabel.font = UIFont(name: "HelveticaNeue-Light", size: 16)
-        brightnessLabel.text = "100%"
+        brightnessLabel.text = "0%"
         brightnessLabel.numberOfLines = 0
         brightnessLabel.textColor = UIColor(red: 0.667, green: 0.737, blue: 0.816, alpha: 1)
         brightnessLabel.textAlignment = .center
