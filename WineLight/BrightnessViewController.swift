@@ -7,7 +7,7 @@
 
 import UIKit
 
-class BrightnessViewController: UIViewController {
+class BrightnessViewController: UIViewController, UIGestureRecognizerDelegate {
     
     let brightnessView = BrightnessView()
     
@@ -56,7 +56,4 @@ class BrightnessViewController: UIViewController {
             }
         }
     }
-}
-
-extension BrightnessViewController: UIGestureRecognizerDelegate {
 }
